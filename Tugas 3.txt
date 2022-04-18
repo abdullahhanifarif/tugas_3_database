@@ -1,0 +1,29 @@
+Tugas 3
+
+1.	Apa kepanjangan dari XAMPP?
+2.	Bagaimana cara untuk mengakses XAMPP Panel?
+3.	Module apa yang harus diaktifkan untuk menjalankan MYSQL Server?
+4.	Bagaimana cara menjalankan PHPMyAdmin di browser?
+5.	Bagaimana menjalankan MYSQL Client?
+
+
+
+Jawaban
+1.	XAMPP adalah singkatan dari 
+	X (cross platform), 
+	A (Apache),
+	M (MySQL/MariaDB), 
+	P (PHP), dan 
+	P (Perl) 
+	yang adalah program-program yang tersedia di software ini.
+
+2.	Menu START->All Programs->XAMPP->XAMPP Control Panel.
+
+3.	Silahkan klik tombol START pada modul MySQL untuk menjalankan MySQL database server dan  
+	klik tombol START pada modul Apache untuk menjalankan Apache web server.
+
+4.	Setelah klik tombol START pada modul Apache dan MySQL, buka browser lalu ketik alamat http://localhost/phpmyadmin
+
+5.	Sebelum mulai, pastikan MySQL server sudah berjalan, boleh dari XAMPP Control Panel atau secara manual dari cmd. Kemudian, buka kembali cmd dan ketik perintah berikut:
+	c:\xampp\mysql\bin\mysql -u root
+
